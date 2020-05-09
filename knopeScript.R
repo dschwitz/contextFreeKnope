@@ -1,5 +1,6 @@
 ### Production Rules ###
 
+
 # S -> INIT
 # INIT -> NAME + , + _ + you + _ + COMPLIMENT 
 # INIT -> You + _ + are + _ + a + _ + COMPLIMENT
@@ -12,7 +13,9 @@
 # NOUN -> [random noun]
 # NAME -> [predetermined name]
 
+
 ## IMPLEMENTATION ##
+
 
 adjectives <- readLines('adjs.txt')
 nouns <- readLines('nns.txt')
